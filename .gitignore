@@ -32,3 +32,5 @@ tsconfig.tsbuildinfo
 # local design assets (not needed in production repo)
 images Insperation/
 images des collections/
+.vercel
+.env*
