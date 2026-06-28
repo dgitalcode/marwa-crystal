@@ -1,0 +1,34 @@
+# dependencies
+node_modules
+
+# next
+.next
+out
+
+# production
+build
+
+# env
+.env
+.env*.local
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# prisma
+prisma/dev.db
+src/generated/prisma/
+
+# typescript
+tsconfig.tsbuildinfo
+
+# local design assets (not needed in production repo)
+images Insperation/
+images des collections/
